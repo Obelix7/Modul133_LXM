@@ -1,5 +1,2 @@
-<template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
-</template>
+<p>Message is: {{ message }}</p>
+<input v-model="message" placeholder="edit me" />
